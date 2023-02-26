@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Games World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!----------------------------------------------------------HEADER---------------------------------------------------------->    
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="header">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-5 fs-md-3">Nintendo Games World</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#about-us" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            About us</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#products" class="nav-link">
+                            <i class="bi bi-book-half me-1"></i>
+                            Products</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#games" class="nav-link">
+                            <i class="bi bi-controller me-1"></i>
+                            Games</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contact" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="header" data-bs-smooth-scroll="true">
+        <!----------------------------------------------------SECTION ABOUT US---------------------------------------------------->
+        <section id="about-us">
+            <!------------------------------------------------------CAROUSEL------------------------------------------------------>
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./images/carousel/nintendo_banner_1.png" alt="Nintendo Mario characters">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/carousel/nintendo_banner_2.png" alt="Nintendo consoles">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/carousel/nintendo_banner_3.png" alt="Pokémon cards">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <!----------------------------------------------------DESCRIPTION---------------------------------------------------->
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/store.png" class="d-block w-100 rounded" alt="Interior space of the store">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="titles text-red">About us</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem velit a esse iusto dolore culpa natus. Nam illo, magnam aspernatur, dignissimos rem repudiandae repellat in aliquam unde non, ducimus mollitia.</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta enim perspiciatis nostrum beatae fuga quia, sunt in asperiores nemo quo quod excepturi? Nesciunt molestiae fugiat ut laboriosam quas ad eos.</p>
+                            <h4 class="titles text-red">Nintendo focused content</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil a officia repellat consequatur quasi, impedit veritatis accusamus fuga tempore! Non voluptates molestiae consequuntur deleniti accusantium illum optio laudantium delectus dolorem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <!----------------------------------------------------SECTION PRODUCTS---------------------------------------------------->
+        <section id="products" class="pt-5 pb-5">
+            <div class="container text-white">
+                <div class="row">
+                    <h2 class="titles text-center">Our products</h2>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <img src="images/products/consoles_acessories.png" class="d-block w-100 rounded mb-2" alt="">
+                        <h4 class="titles">
+                            <i class="bi bi-headset me-1"></i>
+                            Consoles and acessories</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, sunt repellendus nesciunt reiciendis illum vitae soluta. Neque inventore quas alias minima, tempore quod, assumenda quidem earum sunt veritatis asperiores vel.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/products/games.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h4 class="titles">
+                            <i class="bi bi-nintendo-switch me-1"></i>
+                            Games</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, sunt repellendus nesciunt reiciendis illum vitae soluta. Neque inventore quas alias minima, tempore quod, assumenda quidem earum sunt veritatis asperiores vel.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/products/collectibles.png" class="d-block w-100 rounded mb-2" alt="">
+                        <h4 class="titles">
+                            <i class="bi bi-box-fill me-1"></i>
+                            Collectibles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, sunt repellendus nesciunt reiciendis illum vitae soluta. Neque inventore quas alias minima, tempore quod, assumenda quidem earum sunt veritatis asperiores vel.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------------------------------------------------SECTION PRODUCTS---------------------------------------------------->
+        <section id="games" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="titles text-center mb-5 text-red">Browse our library of games!</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column games-library">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#puzzle_strategy" class="fw-bold text-start nav-link text-red active">Puzzle & Strategy</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#action_adventure" class="fw-bold text-start nav-link text-red">Action & Adventure</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#rpg" class="fw-bold text-start nav-link text-red">RPG</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sports_racing" class="fw-bold text-start nav-link text-red">Sports & Racing</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#simulation" class="fw-bold text-start nav-link text-red">Simulation</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <!--------------------------------------------TAB PANE #1-------------------------------------------->
+                            <div class="tab-pane active" id="puzzle_strategy">
+                                <div class="row">
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/strategy/fire_emblem_engage.png" alt="Fire Emblem Engage">
+                                        <h5 class="text-center fw-bold mt-2">Fire Emblem Engage</h5>
+                                        <h6 class="text-center mb-4">20th Jan 2022</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/strategy/pikmin_4.png" alt="Pikmin 4">
+                                        <h5 class="text-center fw-bold mt-2">Pikmin 4</h5>
+                                        <h6 class="text-center mb-4">21st Jul 2023</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/strategy/civilization_vi.png" alt="Sid Meier's Civilization VI">
+                                        <h5 class="text-center fw-bold mt-2">Sid Meier's Civilization VI</h5>
+                                        <h6 class="text-center mb-4">16th Nov 2018</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/strategy/mario_rabbids.png" alt="Mario + Rabbids Sparks of Hope">
+                                        <h5 class="text-center fw-bold mt-2">Mario + Rabbids Sparks of Hope</h5>
+                                        <h6 class="text-center mb-4">20th Oct 2022</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/strategy/triangle_strategy.png" alt="Triangle Strategy">
+                                        <h5 class="text-center fw-bold mt-2">Triangle Strategy</h5>
+                                        <h6 class="text-center mb-4">4th Mar 2022</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/strategy/shin_megami_tensei_v.png" alt="Shin Megami Tensei V">
+                                        <h5 class="text-center fw-bold mt-2">Shin Megami Tensei V</h5>
+                                        <h6 class="text-center mb-4">21st Nov 2021</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--------------------------------------------TAB PANE #2-------------------------------------------->
+                            <div class="tab-pane" id="action_adventure">
+                                <div class="row">
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/action_adventure/super_mario_odyssey.png" alt="Super Mario Odyssey">
+                                        <h5 class="text-center fw-bold mt-2">Super Mario Odyssey</h5>
+                                        <h6 class="text-center mb-4">27th Oct 2017 </h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/action_adventure/it_takes_two.png" alt="It takes two">
+                                        <h5 class="text-center fw-bold mt-2">It takes two</h5>
+                                        <h6 class="text-center mb-4">4th Nov 2022</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/action_adventure/links_awakening.png" alt="The Legend of Zelda: Link's Awakening">
+                                        <h5 class="text-center fw-bold mt-2">The Legend of Zelda: Link's Awakening</h5>
+                                        <h6 class="text-center mb-4">20th Sep 2019</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/action_adventure/bayonetta_3.png" alt="Bayonetta 3">
+                                        <h5 class="text-center fw-bold mt-2">Bayonetta 3</h5>
+                                        <h6 class="text-center mb-4">28th Oct 2022</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/action_adventure/skyward_sword.png" alt="The Legend of Zelda: Skyward Sword HD">
+                                        <h5 class="text-center fw-bold mt-2">The Legend of Zelda: Skyward Sword HD</h5>
+                                        <h6 class="text-center mb-4">16th Jul 2021</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/action_adventure/luigis_mansion.png" alt="Luigi's Mansion 3">
+                                        <h5 class="text-center fw-bold mt-2">Luigi's Mansion 3</h5>
+                                        <h6 class="text-center mb-4">31st Oct 2019</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--------------------------------------------TAB PANE #3-------------------------------------------->
+                            <div class="tab-pane" id="rpg">
+                                <div class="row">
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/rpg/pokemon_violet.png" alt="Pokémon Violet">
+                                        <h5 class="text-center fw-bold mt-2">Pokémon Violet</h5>
+                                        <h6 class="text-center mb-4">18th Nov 2022</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/rpg/pokemon_scarlet.png" alt="Pokémon Scarlet">
+                                        <h5 class="text-center fw-bold mt-2">Pokémon Scarlet</h5>
+                                        <h6 class="text-center mb-4">18th Nov 2022</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/rpg/xenoblade_chronicles_3.png" alt="Xenoblade Chronicles 3">
+                                        <h5 class="text-center fw-bold mt-2">Xenoblade Chronicles 3</h5>
+                                        <h6 class="text-center mb-4">29th Jul 2022</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/rpg/the_witcher_3.png" alt="The Witcher 3: Wild Hunt - Complete Edition">
+                                        <h5 class="text-center fw-bold mt-2">The Witcher 3: Wild Hunt - Complete Edition</h5>
+                                        <h6 class="text-center mb-4">15th Oct 2019</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/rpg/dragon_quest.png" alt="Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition">
+                                        <h5 class="text-center fw-bold mt-2">Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition</h5>
+                                        <h6 class="text-center mb-4">27th Sep 2019</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/rpg/breath_of_the_wild.png" alt="The Legend of Zelda: Breath of the Wild">
+                                        <h5 class="text-center fw-bold mt-2">The Legend of Zelda: Breath of the Wild</h5>
+                                        <h6 class="text-center mb-4">3rd Mar 2017</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--------------------------------------------TAB PANE #4-------------------------------------------->
+                            <div class="tab-pane" id="sports_racing">
+                                <div class="row">
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/sports_racing/mario_kart.png" alt="Mario Kart 8 Deluxe">
+                                        <h5 class="text-center fw-bold mt-2">Mario Kart 8 Deluxe</h5>
+                                        <h6 class="text-center mb-4">28th Apr 2017</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/sports_racing/switch_sports.png" alt="Nintendo Switch Sports">
+                                        <h5 class="text-center fw-bold mt-2">Nintendo Switch Sports</h5>
+                                        <h6 class="text-center mb-4">29th Apr 2022</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/sports_racing/mario_strikers.png" alt="Mario Strikers: Battle League">
+                                        <h5 class="text-center fw-bold mt-2">Mario Strikers: Battle League</h5>
+                                        <h6 class="text-center mb-4">10th Jun 2022</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/sports_racing/mario_tennis.png" alt="Mario Tennis Aces">
+                                        <h5 class="text-center fw-bold mt-2">Mario Tennis Aces</h5>
+                                        <h6 class="text-center mb-4">22nd Jun 2018</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/sports_racing/mario_sonic.png" alt="Mario & Sonic at the Olympic Games Tokyo 2020">
+                                        <h5 class="text-center fw-bold mt-2">Mario & Sonic at the Olympic Games Tokyo 2020</h5>
+                                        <h6 class="text-center mb-4">8th Nov 2019</h6>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <!--------------------------------------------TAB PANE #5-------------------------------------------->
+                            <div class="tab-pane" id="simulation">
+                                <div class="row">
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/simulation/animal_crossing.png" alt="Animal Crossing: New Horizons">
+                                        <h5 class="text-center fw-bold mt-2">Animal Crossing: New Horizons</h5>
+                                        <h6 class="text-center mb-4">20th Mar 2020</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/simulation/harvestella.png" alt="Harvestella">
+                                        <h5 class="text-center fw-bold mt-2">Harvestella</h5>
+                                        <h6 class="text-center mb-4">4th Nov 2022</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/simulation/rune_factory_5.png" alt="Rune Factory 5">
+                                        <h5 class="text-center fw-bold mt-2">Rune Factory 5</h5>
+                                        <h6 class="text-center mb-4">22nd Mar 2022</h6>
+                                    </div>
+                                    <div class="col-md-3 game">
+                                        <img class="d-block w-100" src="./images/games/simulation/stardew_valley.png" alt="Stardew Valley">
+                                        <h5 class="text-center fw-bold mt-2">Stardew Valley</h5>
+                                        <h6 class="text-center mb-4">5th Oct 2017</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!----------------------------------------------------SECTION CONTACT----------------------------------------------------->
+        <section id="contact" class="pt-5 pb-5">
+            <div class="container text-white">
+                <div class="row">
+                    <h2 class="titles text-center mb-5">Contact</h2>
+                </div>
+                <div class="row">
+                    <!--------------------------------------------------FORM------------------------------------------------------>
+                    <div class="col-md-7 mb-5">
+                        <div class="mb-3">
+                            <label for="name" class="form-label fw-bold">Name:</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telephone" class="form-label fw-bold">Telephone (Optional):</label>
+                            <input type="text" id="telephone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold">E-mail:</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label fw-bold">Message:</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="fs-4 titles">
+                                Social media
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-white"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-white"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-white"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Address</h3>
+                            <p>
+                                Arigatou Street, 123, Tokyo - Japan
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

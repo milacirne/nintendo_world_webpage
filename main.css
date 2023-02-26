@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(228, 57, 57);
+    border-bottom: 5px solid #fff;
+}
+
+#header .nav .nav-link.active,
+#contact button {
+    background-color: #fff;
+    color: rgb(228, 57, 57);
+}
+
+#header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.games-library .nav-link.active,
+.games-library .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.titles {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar-toggler,
+.teste {
+    background-color: #fff;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-red {
+    color: rgb(228, 57, 57);
+}
+
+#products,
+#contact {
+    background-color: rgb(228, 57, 57);
+}
+
+.games-library .nav-link.active {
+    background-color: rgb(228, 57, 57);
+}
+
+.games-library .nav-link:hover {
+    color: red;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
